@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Calculadora-IMC" />
+    <meta name="author" content="Felipe C." />
+    <link rel="stylesheet" href="/assets.style/estilo.css" />
+    <title>Calculadora-IMC</title>
+  </head>
+  <body>
+    <div class="div-title">
+      <h1 class="title">CALCULADORA - IMC</h1>
+    </div>
+    <form id="form" action="submit" class="container-principal">
+      <section>
+        <img
+          class="img-lateral"
+          src="/icons/female-programmer-upper-body-svgrepo-com.svg"
+          alt=""
+        />
+      </section>
+      <div class="cotainer-principal-input">
+        <span class="container-flexbox-span">
+          <div class="container-input-kg">
+            <label class="label-output-kg" for="OutputKG" aria-placeholder="Kg"
+              >Digite seu Peso(Kg)</label
+            >
+            <div>
+              <img
+                class="img-input"
+                src="/icons/kilograms-weight-svgrepo-com.svg"
+                alt=""
+                srcset=""
+              />
+              <input
+                class="input-kg"
+                type="text"
+                name="Kg"
+                placeholder="Kg"
+                id="peso"
+              />
+            </div>
+          </div>
+          <div class="container-input-altura">
+            <label class="label-output-heigth" for="OutputHEIGTH"
+              >Digite sua Altura(cm)</label
+            >
+            <div>
+              <img
+                class="img-input"
+                src="/icons/human-svgrepo-com.svg"
+                alt=""
+                srcset=""
+              />
+              <input
+                class="input-heigth"
+                type="text"
+                name="Altura"
+                placeholder="Mt"
+                id="altura"
+              />
+            </div>
+          </div>
+        </span>
+        <div class="container-button-enviar">
+          <button type="submit" id="button" class="button-enviar">
+            ENVIAR
+          </button>
+        </div>
+      </div>
+    </form>
+    <script src="/assets.js/script.js"></script>
+  </body>
+</html>

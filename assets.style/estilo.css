@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+.div-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 0.1rem solid black;
+  margin-inline: 38.125rem;
+  border-radius: 5px;
+  background-color: azure;
+}
+
+.container-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 2.25rem;
+  border: 0.1rem solid black;
+  margin-inline: 25rem;
+  padding: 3.125rem;
+  border-radius: 5px;
+  background-color: azure;
+}
+
+.img-lateral {
+  cursor: pointer;
+}
+
+.container-flexbox-span {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.label-output-kg,
+.label-output-heigth {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 0.6rem;
+}
+
+.img-input {
+  position: absolute;
+  cursor: auto;
+  margin-top: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.input-kg,
+.input-heigth {
+  width: 20rem;
+  height: 3.235rem;
+  border-radius: 5px;
+  border: 0.1rem solid black;
+  margin-top: 0.6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  cursor: auto;
+  background-color: rgb(199, 234, 234);
+  text-indent: 2.5rem;
+}
+
+.input-heigth::placeholder,
+.input-kg::placeholder {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-indent: 18rem;
+}
+
+.container-button-enviar {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.3rem;
+}
+
+.button-enviar {
+  height: 3.5rem;
+  width: 7rem;
+  background-color: rgb(235, 165, 75);
+  color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.1rem;
+  border: 0.1rem solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popUp-resposta {
+  margin-top: 50px;
+  margin-inline: 780px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: azure;
+  border-radius: 5px;
+}
